@@ -1,0 +1,110 @@
+/* === Base Styles === */
+* {
+    font-family: "Fira Sans", "FiraCode Nerd Font", sans-serif;
+    font-size: 12px;
+}
+
+#waybar {
+    background: rgba(46, 52, 64, 0.85); /* GTK-style dark background */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 4px 12px;
+    transition: background 0.25s ease, box-shadow 0.25s ease;
+    backdrop-filter: blur(8px); /* soft GTK-like blur */
+}
+
+/* === Workspaces (Left) === */
+#workspaces {
+    display: flex;
+    gap: 6px;
+}
+
+#workspaces button {
+    background: rgba(68, 76, 92, 0.4); /* GTK button color */
+    border-radius: 5px;
+    padding: 3px 8px;
+    color: #d8dee9; /* text color */
+    transition: all 0.2s ease;
+}
+
+#workspaces button:hover {
+    background: rgba(97, 108, 126, 0.6);
+}
+
+#workspaces button.active {
+    background: #81a1c1; /* active workspace highlight */
+    color: #eceff4;
+}
+
+/* === Window Title (Center) === */
+#window {
+    text-align: center;
+    color: #eceff4;
+    font-weight: 500;
+    max-width: 600px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* === Center Modules: Clock, CPU, Memory, GPU === */
+#clock, #cpu, #memory, #gpu {
+    margin: 0 8px;
+    color: #d8dee9;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+#clock:hover, #cpu:hover, #memory:hover, #gpu:hover {
+    transform: scale(1.1);
+    color: #88c0d0; /* GTK accent color */
+}
+
+/* === Right Modules: Battery, Network, Sound, Brightness, Power, Bluetooth === */
+#battery, #network, #pulseaudio, #brightness, #power, #bluetooth {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #d8dee9;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+#battery:hover, #network:hover, #pulseaudio:hover, #brightness:hover, #power:hover, #bluetooth:hover {
+    transform: scale(1.1);
+    color: #a3be8c; /* GTK accent green for hover */
+}
+
+/* Battery specific colors */
+#battery[data-state="charging"] {
+    color: #ebcb8b; /* GTK yellow */
+}
+#battery[data-state="full"] {
+    color: #a3be8c; /* GTK green */
+}
+#battery[data-state="discharging"] {
+    color: #bf616a; /* GTK red */
+}
+
+/* Tooltip Styles (like GTK popups) */
+.tooltip {
+    background: rgba(60, 65, 78, 0.95);
+    color: #eceff4;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 11px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* === Pulseaudio (Volume) Styling === */
+#pulseaudio {
+    gap: 3px;
+}
+
+/* === Workspace smooth hover animations === */
+#workspaces button {
+    transition: all 0.15s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* === Clock bold accent on hover === */
+#clock:hover {
+    font-weight: bold;
+}

@@ -1,0 +1,80 @@
+configuration {
+    modi: "drun";
+    show-icons: true;
+    display-drun: "";
+    drun-display-format: "{name}";
+}
+
+@theme "/dev/null"
+
+* {
+    bg:          #0a192fcc; /* Deep blue glass */
+    bg-sel:      #1d3557;   /* Selection blue */
+    fg:          #e6f1ff;   /* White text */
+    accent:      #64ffda;   /* Teal accent */
+    
+    background-color: transparent;
+    font: "JetBrainsMono Nerd Font 10";
+}
+
+window {
+    width:            600px;
+    x-offset:         0px;
+    y-offset:         0px;
+    border:           1px;
+    border-color:     #ffffff10;
+    border-radius:    20px;
+    background-color: @bg;
+    padding:          8px;
+}
+
+mainbox {
+    spacing:          0px;
+    children:         [ inputbar, listview ];
+}
+
+inputbar {
+    margin:           16px;
+    padding:          10px;
+    background-color: #ffffff08;
+    border-radius:    12px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    text-color:       @accent;
+    padding:          0px 10px 0px 5px;
+}
+
+entry {
+    text-color:       @fg;
+    placeholder:      "Search Apps...";
+    placeholder-color: #8892b0;
+}
+
+listview {
+    lines:            6;
+    columns:          1;
+    fixed-height:     false;
+    margin:           5px 15px 15px 15px;
+}
+
+element {
+    padding:          8px;
+    border-radius:    10px;
+}
+
+element selected {
+    background-color: @bg-sel;
+    text-color:       @accent;
+}
+
+element-icon {
+    size:             22px;
+    margin:           0 10px 0 0;
+}
+
+element-text {
+    vertical-align:   0.5;
+    color:            White;
+}

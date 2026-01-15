@@ -1,0 +1,40 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon/128.png",
+         "16": "icon/16.png",
+         "256": "icon/256.png",
+         "38": "icon/38.png",
+         "48": "icon/48.png"
+      },
+      "default_title": "Panda"
+   },
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' ; object-src 'self';"
+   },
+   "description": "New Tab Dashboard & Widgets",
+   "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "256": "icon/256.png",
+      "38": "icon/38.png",
+      "48": "icon/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA33cr9a5tl2P1BEapMJL5cLq7gtVoCfzA+LAC6nPDfuYx5pjX9+qUHIRfejp2Wp0hnNMUGxvRSChDxOxIomC9uxD4r3J3L01rhIbqK0+CGvj9bpi2GJvlW1qDGBeK+lejjcfUREE6rCuxLfXZIpY2x9qeUDnWU7ivNn4yinCP2tbrQ8hsK2mWvVyQZBzaTqHxRfMB54V2EVWlFin3jF66ifYTEke+k7Ofu0mmbfxMRhV3WVtLSSyx3bsHSS1p14bgU8ujoMyRzq0ekWTenQ6T4eZRRVKEaQJACjjex9sPjlo1VCkIQY61fkC+Q7NAthn7t47WgIWt6iFkC57WUb0bKwIDAQAB",
+   "manifest_version": 3,
+   "name": "Panda New Tab",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.3.61",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "newtab.html" ]
+   } ]
+}

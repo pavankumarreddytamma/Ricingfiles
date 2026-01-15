@@ -1,0 +1,86 @@
+/**
+ * TOTAL RESET MINIMAL THEME
+ **/
+
+configuration {
+    modi:                       "drun";
+    show-icons:                 true;
+    display-drun:               "Search";
+    drun-display-format:        "{name}";
+    font:                       "JetBrainsMono Nerd Font 10";
+}
+
+/* This line kills the default theme loading */
+@theme "/dev/null"
+
+* {
+    /* Colors */
+    bg:                          rgba(21, 91, 166, 0.7);
+    bg-selected:                 rgba(255, 255, 255, 0.5);
+    fg:                          #FFFFFF;
+    accent:                      #81A1C1;
+
+    background-color:            transparent;
+    text-color:                  @fg;
+    margin:                      0;
+    padding:                     0;
+    spacing:                     0;
+}
+
+window {
+    width:                       300px;
+    border-radius:               24px;
+    background-color:            @bg;
+    location:                    center;
+    anchor:                      center;
+}
+
+mainbox {
+    children:                    [ "inputbar", "listview" ];
+    padding:                     32px;
+}
+
+inputbar {
+    children:                    [ "prompt", "entry" ];
+    padding:                     10px;
+    border:                      0 0 1px 0;
+    border-color:                rgba(255, 255, 255, 0.7);
+    background-color:            rgba(95, 85, 153, 0.5);
+    border-radius:               12px;
+}
+
+prompt {
+    padding:                     0 10px 0 0;
+    text-color:                  @accent;
+}
+
+entry {
+    placeholder:                 "";
+    placeholder-color:           rgba(255, 255, 255, 0.5);
+}
+
+listview {
+    lines:                       7;
+    columns:                     1;
+    fixed-height:                false;
+    padding:                     10px 0 0 0;
+}
+
+element {
+    padding:                     8px;
+    border-radius:               6px;
+}
+
+element selected {
+    background-color:            @bg-selected;
+    text-color:                  @accent;
+}
+
+element-icon {
+    size:                        20px;
+    margin:                      0 10px 0 0;
+}
+
+element-text {
+    vertical-align:              0.5;
+}

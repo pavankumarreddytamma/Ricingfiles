@@ -1,0 +1,7 @@
+2026/01/14-22:13:32.998 120a9d Reusing MANIFEST /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/14-22:13:32.999 120a9d Recovering log #4
+2026/01/14-22:13:33.000 120a9d Reusing old log /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000004.log 
+2026/01/14-22:13:34.265 120a7b Level-0 table #8: started
+2026/01/14-22:13:34.268 120a7b Level-0 table #8: 1654 bytes OK
+2026/01/14-22:13:34.274 120a7b Delete type=0 #4
+2026/01/14-22:13:34.274 120a7b Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

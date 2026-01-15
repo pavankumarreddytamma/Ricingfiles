@@ -1,0 +1,83 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "8a1d7389824cc734f75d93c615b96c7a571ac7eca4d8f52b005c1cd240f629fe",
+    "telemetry.devDeviceId": "a3f75f44-a48e-4773-bd24-895c7aa95591",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/pavan/.config"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/pavan/.config/hypr": "__default__profile__",
+            "file:///home/pavan/.config/kitty": "__default__profile__",
+            "file:///home/pavan/.config": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#002451",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#002451",
+            "editorBackground": "#002451",
+            "titleBarBackground": "#001126",
+            "activityBarBackground": "#001733",
+            "sideBarBackground": "#001c40",
+            "statusBarBackground": "#001126",
+            "statusBarNoFolderBackground": "#001126"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 271,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/pavan/.config",
+            "backupPath": "/home/pavan/.config/Code - OSS/Backups/f0f53c705c068d43fc7621af4ca72e2d",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 271,
+            "auxiliaryBarWidth": 9007199254740991,
+            "workspaces": {
+                "446eefb4308edb085deb5417c8048728": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b98338f4f6e7055f3e1009a616cb4298": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "94b5de05b472bbb2bf9c269de5f08715": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

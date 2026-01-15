@@ -1,0 +1,19 @@
+2026/01/15-17:02:56.098 514f Reusing MANIFEST /home/pavan/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/15-17:02:56.099 514f Recovering log #15
+2026/01/15-17:02:56.105 514f Reusing old log /home/pavan/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000015.log 
+2026/01/15-17:06:36.148 5153 Level-0 table #22: started
+2026/01/15-17:06:36.176 5153 Level-0 table #22: 3472568 bytes OK
+2026/01/15-17:06:36.181 5153 Delete type=0 #15
+2026/01/15-17:15:33.638 514f Compacting 1@1 + 3@2 files
+2026/01/15-17:15:33.708 514f Generated table #23@1: 1629 keys, 2124635 bytes
+2026/01/15-17:15:33.746 514f Generated table #24@1: 2101 keys, 2116731 bytes
+2026/01/15-17:15:33.775 514f Generated table #25@1: 6349 keys, 1447406 bytes
+2026/01/15-17:15:33.775 514f Compacted 1@1 + 3@2 files => 5688772 bytes
+2026/01/15-17:15:33.779 514f compacted to: files[ 0 0 3 0 0 0 0 ]
+2026/01/15-17:15:33.779 514f Delete type=2 #17
+2026/01/15-17:15:33.780 514f Delete type=2 #18
+2026/01/15-17:15:33.780 514f Delete type=2 #19
+2026/01/15-17:15:33.780 514f Delete type=2 #22
+2026/01/15-17:21:40.912 5153 Level-0 table #27: started
+2026/01/15-17:21:40.938 5153 Level-0 table #27: 3537357 bytes OK
+2026/01/15-17:21:40.944 5153 Delete type=0 #21

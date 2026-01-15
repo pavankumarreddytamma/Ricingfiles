@@ -1,0 +1,75 @@
+* {
+    font-family: "FiraCode Nerd Font", monospace;
+    font-size: 12px;
+}
+
+#waybar {
+    background: rgba(30, 30, 30, 0.6); /* transparent background */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 15px;
+    transition: background 0.3s ease;
+}
+
+#workspaces {
+    background: rgba(50, 50, 50, 0.4);
+    border-radius: 6px;
+    padding: 2px 10px;
+    display: flex;
+    gap: 6px;
+}
+
+#workspaces button {
+    background: rgba(80, 80, 80, 0.2);
+    border-radius: 4px;
+    padding: 3px 8px;
+    color: #ddd;
+    transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+#window {
+    text-align: center;
+    color: #eee;
+    font-weight: 500;
+    max-width: 600px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: color 0.2s ease;
+}
+
+#clock, #cpu, #memory, #gpu {
+    margin: 0 10px;
+    color: #eee;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#clock:hover, #cpu:hover, #memory:hover, #gpu:hover {
+    transform: scale(1.1);
+    color: #ffd700;
+}
+
+#battery, #network, #pulseaudio, #brightness, #power, #bluetooth {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #eee;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#battery:hover, #network:hover, #pulseaudio:hover, #brightness:hover, #power:hover, #bluetooth:hover {
+    transform: scale(1.1);
+    color: #7fffd4;
+}
+
+.tooltip {
+    background: rgba(40, 40, 40, 0.9);
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 11px;
+}

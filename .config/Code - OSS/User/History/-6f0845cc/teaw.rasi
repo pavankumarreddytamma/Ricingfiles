@@ -1,0 +1,96 @@
+/**
+ * MINIMAL TRANSPARENT ROFI
+ * This version forces a reset to prevent default theme overlap.
+ **/
+
+configuration {
+    modi:                       "drun";
+    show-icons:                 true;
+    display-drun:               "";
+    font:                       "JetBrainsMono Nerd Font 10";
+}
+
+/* --- Clean Slate Reset --- */
+* {
+    all:                         unset; /* Resets all default properties */
+    background-color:            transparent;
+    text-color:                  #FFFFFF;
+}
+
+/* --- Variable Definitions --- */
+* {
+    bg-col:                      rgba(15, 15, 15, 0.7);
+    bg-hover:                    rgba(255, 255, 255, 0.1);
+    accent:                      #7AA2F7;
+}
+
+window {
+    width:                       350px;
+    height:                      400px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+    anchor:                      center;
+    location:                    center;
+    
+    enabled:                     true;
+    border:                      1px;
+    border-color:                rgba(255, 255, 255, 0.1);
+    border-radius:               12px;
+    background-color:            @bg-col;
+}
+
+mainbox {
+    enabled:                     true;
+    orientation:                 vertical;
+    children:                    [ "inputbar", "listview" ];
+    background-color:            transparent;
+}
+
+/* --- Search Bar --- */
+inputbar {
+    enabled:                     true;
+    padding:                     20px 20px 10px 20px;
+    children:                    [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:                     true;
+    margin:                      0px 10px 0px 0px;
+}
+
+entry {
+    enabled:                     true;
+    placeholder:                 "Search...";
+    placeholder-color:           rgba(255, 255, 255, 0.3);
+}
+
+/* --- Results List --- */
+listview {
+    enabled:                     true;
+    columns:                     1;
+    lines:                       8;
+    padding:                     10px 20px 20px 20px;
+    cycle:                       true;
+    fixed-height:                true;
+}
+
+element {
+    enabled:                     true;
+    padding:                     8px;
+    border-radius:               8px;
+    cursor:                      pointer;
+}
+
+element selected.normal {
+    background-color:            @bg-hover;
+    text-color:                  @accent;
+}
+
+element-icon {
+    size:                        24px;
+    margin:                      0px 10px 0px 0px;
+}
+
+element-text {
+    vertical-align:              0.5;
+}

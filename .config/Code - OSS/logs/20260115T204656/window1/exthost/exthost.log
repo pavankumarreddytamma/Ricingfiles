@@ -1,0 +1,17 @@
+2026-01-15 20:46:59.567 [info] Extension host with pid 77099 started
+2026-01-15 20:46:59.567 [info] Skipping acquiring lock for /home/pavan/.config/Code - OSS/User/workspaceStorage/94b5de05b472bbb2bf9c269de5f08715.
+2026-01-15 20:46:59.907 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-15 20:46:59.952 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-15 20:47:00.045 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-15 20:47:00.066 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-15 20:47:00.149 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-15 20:47:00.360 [info] Eager extensions activated
+2026-01-15 20:47:00.374 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-15 20:47:00.378 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-15 20:59:22.322 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-15 20:59:22.337 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-15 20:59:22.357 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-01-15 20:59:22.477 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-01-15 21:00:28.577 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-15 23:15:14.126 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-15 23:15:14.144 [info] Extension host with pid 77099 exiting with code 0

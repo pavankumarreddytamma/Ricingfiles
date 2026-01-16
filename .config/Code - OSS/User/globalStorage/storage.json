@@ -16,7 +16,8 @@
         "workspaces": {
             "file:///home/pavan/.config/hypr": "__default__profile__",
             "file:///home/pavan/.config/kitty": "__default__profile__",
-            "file:///home/pavan/.config": "__default__profile__"
+            "file:///home/pavan/.config": "__default__profile__",
+            "file:///home/pavan": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -74,6 +75,10 @@
                     "auxiliaryBarVisible": false
                 },
                 "94b5de05b472bbb2bf9c269de5f08715": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3953084429cb06b7f2b9a47049660409": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

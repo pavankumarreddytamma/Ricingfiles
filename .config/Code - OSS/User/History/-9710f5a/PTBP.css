@@ -1,0 +1,38 @@
+window {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* This centers the row on your screen */
+grid {
+    margin: 300px;
+}
+
+button {
+    all: unset; /* Clears default padding that causes overlaps */
+    background-color: rgba(30, 30, 46, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 10px;
+    
+    /* Small Square Dimensions */
+    min-width: 80px;
+    min-height: 80px;
+
+    /* Icon Setup */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%; /* Adjust this if icon is too small/large */
+    
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(137, 180, 250, 0.4);
+    border: 2px solid #89b4fa;
+}
+
+/* Icon Paths - Verify these files exist in /usr/share/wlogout/icons/ */
+#lock { background-image: image(url("/usr/share/wlogout/icons/lock.png")); }
+#logout { background-image: image(url("/usr/share/wlogout/icons/logout.png")); }
+#shutdown { background-image: image(url("/usr/share/wlogout/icons/shutdown.png")); }
+#reboot { background-image: image(url("/usr/share/wlogout/icons/reboot.png")); }

@@ -1,0 +1,54 @@
+* {
+    background-image: none;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    transition: 200ms;
+}
+
+window {
+    background-color: rgba(21, 21, 21, 0.5); /* Matching Waybar transparency */
+}
+
+button {
+    color: #cdd6f4;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    transition: background-color 0.2s ease, border 0.2s ease, margin 0.2s ease;
+}
+
+
+
+ button:hover {
+    background-color: rgba(137, 180, 250, 0.4); /* Glow effect */
+    border: 2px solid #89b4fa;
+    margin: 10px; /* Shrinking the margin makes the button "grow" visually */
+}
+
+/* Icon Setup using Nerd Fonts instead of external PNGs for a cleaner look */
+#lock {
+    background-image: url("/usr/share/wlogout/icons/lock.png");
+}
+
+#logout {
+    background-image: url("/usr/share/wlogout/icons/logout.png");
+}
+
+#suspend {
+    background-image: url("/usr/share/wlogout/icons/suspend.png");
+}
+
+#hibernate {
+    background-image: url("/usr/share/wlogout/icons/hibernate.png");
+}
+
+#shutdown {
+    background-image: url("/usr/share/wlogout/icons/shutdown.png");
+}
+
+#reboot {
+    background-image: url("/usr/share/wlogout/icons/reboot.png");
+}

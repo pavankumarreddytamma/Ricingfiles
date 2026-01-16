@@ -1,0 +1,43 @@
+/* Transparent background for the whole screen */
+window {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Button Styling */
+button {
+    color: #ffffff;
+    background-color: rgba(30, 30, 46, 0.7);
+    outline-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.4); /* Bouncy animation */
+}
+
+/* Hover & Focus Animation */
+button:focus,
+button:active,
+button:hover {
+    background-color: rgba(137, 180, 250, 0.5);
+    border: 1px solid #89b4fa;
+    transform: scale(1.1); /* The "Pop" effect */
+}
+
+/* Failsafe Icon Paths */
+/* This checks /usr/share (Standard), /usr/local/share (Manual), and your local config */
+
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"), url("icons/lock.png"));
+}
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"), url("icons/logout.png"));
+}
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"), url("icons/shutdown.png"));
+}
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"), url("icons/reboot.png"));
+}

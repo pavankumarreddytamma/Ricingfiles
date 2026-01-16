@@ -6,8 +6,10 @@ x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
 image/jpeg=org.gnome.Loupe.desktop
 text/plain=org.gnome.gedit.desktop
+image/png=org.gnome.Loupe.desktop
 
 [Added Associations]
 image/jpeg=org.gnome.Loupe.desktop;
 text/plain=org.gnome.gedit.desktop;
 application/vnd.ms-publisher=org.gnome.gedit.desktop;
+image/png=org.gnome.Loupe.desktop;

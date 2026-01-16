@@ -1,9 +1,6 @@
-2026/01/15-16:43:19.833 5 Reusing MANIFEST /home/pavan/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
-2026/01/15-16:43:19.873 5 Recovering log #7
-2026/01/15-16:43:19.874 5 Reusing old log /home/pavan/.config/google-chrome/Default/Local Storage/leveldb/000007.log 
-2026/01/15-17:21:26.972 7 Level-0 table #11: started
-2026/01/15-17:21:26.976 7 Level-0 table #11: 12450 bytes OK
-2026/01/15-17:21:26.982 7 Delete type=0 #7
-2026/01/15-18:08:26.972 7 Level-0 table #13: started
-2026/01/15-18:08:26.976 7 Level-0 table #13: 12233 bytes OK
-2026/01/15-18:08:26.981 7 Delete type=0 #10
+2026/01/16-12:14:49.196 5 Reusing MANIFEST /home/pavan/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2026/01/16-12:14:49.210 5 Recovering log #18
+2026/01/16-12:14:49.211 5 Reusing old log /home/pavan/.config/google-chrome/Default/Local Storage/leveldb/000018.log 
+2026/01/16-12:59:56.519 7 Level-0 table #23: started
+2026/01/16-12:59:56.521 7 Level-0 table #23: 12184 bytes OK
+2026/01/16-12:59:56.527 7 Delete type=0 #18

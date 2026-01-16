@@ -1,0 +1,41 @@
+window {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Centers the entire horizontal bar on the screen */
+grid {
+    margin: 300px;
+}
+
+button {
+    all: unset; /* Removes all default GTK padding/alignment */
+    background-color: rgba(30, 30, 46, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin: 10px;
+    
+    /* Strict Square sizing */
+    width: 100px;
+    height: 100px;
+
+    /* Locked Icon Alignment */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px; /* Fixed size is more stable than % */
+    background-origin: border-box; /* Ensures centering ignores padding */
+    
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(137, 180, 250, 0.3);
+    border: 2px solid #89b4fa;
+    /* Subtle hover animation without moving the box */
+    box-shadow: 0 0 10px rgba(137, 180, 250, 0.2);
+}
+
+/* Icon Paths - If these don't show, the files are not in this folder */
+#lock { background-image: image(url("/usr/share/wlogout/icons/lock.png")); }
+#logout { background-image: image(url("/usr/share/wlogout/icons/logout.png")); }
+#shutdown { background-image: image(url("/usr/share/wlogout/icons/shutdown.png")); }
+#reboot { background-image: image(url("/usr/share/wlogout/icons/reboot.png")); }

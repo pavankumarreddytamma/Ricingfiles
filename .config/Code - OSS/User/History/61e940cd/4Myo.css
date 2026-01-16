@@ -1,0 +1,109 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: initial;
+    min-height: 0px;
+}
+
+window#waybar {
+    background: rgba(21, 21, 21, 0.3); /* Semi-transparent */
+    color: #cdd6f4;
+    transition-property: background-color;
+    transition-duration: .5s;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 24px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modules-left, .modules-center, .modules-right {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Common Module Styling */
+#cpu, #custom-gpu, #memory, #temperature, 
+#clock, #battery, #network, #pulseaudio, #backlight, #bluetooth, #custom-power {
+    padding: 0 10px;
+    margin: 4px 4px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+#window {
+    padding: 0 10px;
+    margin: 4px 4px;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+ }
+ 
+#workspaces button {
+  min-width: 18px;
+  min-height: 8px;
+
+  margin: 0 4px;
+  padding: 0;
+
+  background: #3a3a3a;
+  border-radius: 6px;
+
+  transition: all 0.25s ease;
+}
+
+/* Active workspace — wider */
+#workspaces button.active {
+  min-width: 36px;
+  background: #ffffff;
+}
+
+/* Hover (optional) */
+#workspaces button:hover {
+  background: #aaaaaa;
+}
+
+/* Urgent workspace */
+#workspaces button.urgent {
+  background: #ff5555;
+}
+
+#clock {
+    color: #f9e2af;
+    font-weight: bold;
+}
+
+#battery.charging {
+    color: #a6e3a1;
+}
+
+#battery.warning:not(.charging) {
+    color: #fab387;
+}
+
+#battery.critical:not(.charging) {
+    color: #f38ba8;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#custom-power {
+    color: #f38ba8;
+    padding-right: 15px;
+}
+
+@keyframes pulse {
+        from { background-color: #f38ba8; }
+        to   { box-shadow: 0 0 14px #ef4444; }
+}

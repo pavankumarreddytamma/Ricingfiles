@@ -1,0 +1,109 @@
+{
+  "bar": {
+    "position": "top",
+    "height": 32,
+    "background": "rgba(25, 55, 120, 0.65)", 
+    "blur": true,
+    "blur_amount": 12,
+    "padding": 6,
+    "animation": {
+      "hover_scale": 1.05,
+      "hover_transition": 0.2,
+      "fade_in_out": 0.25
+    },
+    "sections": {
+      "left": [
+        {
+          "type": "workspaces",
+          "show_icons": true,
+          "hover_effect": true
+        }
+      ],
+      "center": [
+        {
+          "type": "windows",
+          "show_icons": true
+        },
+        {
+          "type": "system",
+          "widgets": [
+            {
+              "name": "cpu",
+              "display": "graph",
+              "hover_tooltip": true
+            },
+            {
+              "name": "gpu",
+              "display": "percentage",
+              "hover_tooltip": true
+            },
+            {
+              "name": "memory",
+              "display": "graph",
+              "hover_tooltip": true
+            },
+            {
+              "name": "temperature",
+              "display": "numeric",
+              "hover_tooltip": true
+            },
+            {
+              "name": "clock",
+              "format": "ddd, MMM D - HH:mm",
+              "hover_tooltip": true
+            }
+          ]
+        }
+      ],
+      "right": [
+        {
+          "type": "battery",
+          "hover_dropdown": true,
+          "dropdown": [
+            {"name": "Power Mode", "options": ["Performance","Balanced","Battery Saver"]},
+            {"name": "Battery %"}
+          ]
+        },
+        {
+          "type": "sound",
+          "hover_dropdown": true,
+          "dropdown": ["Volume Slider", "Mute Toggle"]
+        },
+        {
+          "type": "brightness",
+          "hover_dropdown": true,
+          "dropdown": ["Slider"]
+        },
+        {
+          "type": "wifi",
+          "hover_dropdown": true,
+          "dropdown": ["Networks", "Connect/Disconnect"]
+        },
+        {
+          "type": "bluetooth",
+          "hover_dropdown": true,
+          "dropdown": ["Devices", "Toggle"]
+        },
+        {
+          "type": "powermenu",
+          "hover_dropdown": true,
+          "dropdown": ["Shutdown","Restart","Suspend","Logout"]
+        }
+      ]
+    }
+  },
+  "animations": {
+    "global": {
+      "smoothness": 0.18,
+      "hover_scale": 1.06,
+      "fade_in_out": 0.22
+    }
+  },
+  "colors": {
+    "background": "rgba(25, 55, 120, 0.65)",
+    "accent": "#4DA6FF",
+    "text": "#E0E0E0",
+    "hover": "#6FAEFF",
+    "dropdown_bg": "rgba(30,60,130,0.85)"
+  }
+}

@@ -17,3 +17,22 @@
 2026/01/15-17:21:40.912 5153 Level-0 table #27: started
 2026/01/15-17:21:40.938 5153 Level-0 table #27: 3537357 bytes OK
 2026/01/15-17:21:40.944 5153 Delete type=0 #21
+2026/01/15-17:55:42.408 5153 Level-0 table #29: started
+2026/01/15-17:55:42.418 5153 Level-0 table #29: 1060602 bytes OK
+2026/01/15-17:55:42.424 5153 Delete type=0 #26
+2026/01/15-17:55:42.424 5153 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x002\x00f\x002\x00b\x007\x00d\x000\x00a\x00d\x004\x00f\x00f\x003\x00a\x00f\x003\x002\x00f\x007\x001\x00f\x00f\x008\x000\x006\x008\x004\x00f\x00c\x003\x009\x00d\x00_\x003\x00_\x002\x00:\x000\x003' @ 56291 : 1
+2026/01/15-17:55:42.424 5153 Compacting 1@0 + 1@1 files
+2026/01/15-17:55:42.436 5153 Generated table #30@0: 2218 keys, 89727 bytes
+2026/01/15-17:55:42.436 5153 Compacted 1@0 + 1@1 files => 89727 bytes
+2026/01/15-17:55:42.441 5153 compacted to: files[ 0 1 3 0 0 0 0 ]
+2026/01/15-17:55:42.442 5153 Delete type=2 #27
+2026/01/15-17:55:42.442 5153 Delete type=2 #29
+2026/01/15-17:55:42.443 5153 Manual compaction at level-0 from '\x00\x01\x03\x03\x01'\x002\x00f\x002\x00b\x007\x00d\x000\x00a\x00d\x004\x00f\x00f\x003\x00a\x00f\x003\x002\x00f\x007\x001\x00f\x00f\x008\x000\x006\x008\x004\x00f\x00c\x003\x009\x00d\x00_\x003\x00_\x002\x00:\x000\x003' @ 56291 : 1 .. (end); will stop at (end)
+2026/01/15-17:55:42.443 5153 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x03\x01'\x002\x00f\x002\x00b\x007\x00d\x000\x00a\x00d\x004\x00f\x00f\x003\x00a\x00f\x003\x002\x00f\x007\x001\x00f\x00f\x008\x000\x006\x008\x004\x00f\x00c\x003\x009\x00d\x00_\x003\x00_\x002\x00:\x000\x003' @ 57189 : 1
+2026/01/15-17:55:42.443 5153 Compacting 1@1 + 1@2 files
+2026/01/15-17:55:42.483 5153 Generated table #31@1: 1634 keys, 2087077 bytes
+2026/01/15-17:55:42.483 5153 Compacted 1@1 + 1@2 files => 2087077 bytes
+2026/01/15-17:55:42.488 5153 compacted to: files[ 0 0 3 0 0 0 0 ]
+2026/01/15-17:55:42.488 5153 Delete type=2 #23
+2026/01/15-17:55:42.488 5153 Delete type=2 #30
+2026/01/15-17:55:42.489 5153 Manual compaction at level-1 from '\x00\x01\x03\x03\x01'\x002\x00f\x002\x00b\x007\x00d\x000\x00a\x00d\x004\x00f\x00f\x003\x00a\x00f\x003\x002\x00f\x007\x001\x00f\x00f\x008\x000\x006\x008\x004\x00f\x00c\x003\x009\x00d\x00_\x003\x00_\x002\x00:\x000\x003' @ 57189 : 1 .. (end); will stop at (end)

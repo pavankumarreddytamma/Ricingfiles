@@ -10,3 +10,4 @@ text/plain=org.gnome.gedit.desktop
 [Added Associations]
 image/jpeg=org.gnome.Loupe.desktop;
 text/plain=org.gnome.gedit.desktop;
+application/vnd.ms-publisher=org.gnome.gedit.desktop;

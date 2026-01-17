@@ -1,7 +1,14 @@
-2026/01/14-22:13:32.998 120a9d Reusing MANIFEST /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/14-22:13:32.999 120a9d Recovering log #4
-2026/01/14-22:13:33.000 120a9d Reusing old log /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000004.log 
-2026/01/14-22:13:34.265 120a7b Level-0 table #8: started
-2026/01/14-22:13:34.268 120a7b Level-0 table #8: 1654 bytes OK
-2026/01/14-22:13:34.274 120a7b Delete type=0 #4
-2026/01/14-22:13:34.274 120a7b Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/01/17-13:41:57.282 17fa9 Reusing MANIFEST /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/17-13:41:57.283 17fa9 Recovering log #25
+2026/01/17-13:41:57.283 17fa9 Reusing old log /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000025.log 
+2026/01/17-13:41:57.284 17fa9 Delete type=2 #23
+2026/01/17-13:41:59.884 17fa9 Level-0 table #30: started
+2026/01/17-13:41:59.891 17fa9 Level-0 table #30: 635 bytes OK
+2026/01/17-13:41:59.897 17fa9 Delete type=0 #25
+2026/01/17-13:41:59.898 17f8f Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 432 : 1
+2026/01/17-13:41:59.898 17f8f Compacting 1@0 + 1@1 files
+2026/01/17-13:41:59.901 17f8f Generated table #31@0: 7 keys, 615 bytes
+2026/01/17-13:41:59.901 17f8f Compacted 1@0 + 1@1 files => 615 bytes
+2026/01/17-13:41:59.905 17f8f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/17-13:41:59.905 17f8f Delete type=2 #30
+2026/01/17-13:41:59.905 17f8f Manual compaction at level-0 from '\x00\x0a\x00\x00\x05' @ 432 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,14 @@
+2026-01-17 12:33:55.634 [info] Extension host with pid 85197 started
+2026-01-17 12:33:55.634 [info] Skipping acquiring lock for /home/pavan/.config/Code - OSS/User/workspaceStorage/3953084429cb06b7f2b9a47049660409.
+2026-01-17 12:33:55.935 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-17 12:33:55.989 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-17 12:33:56.113 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-17 12:33:56.128 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-17 12:33:56.218 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-17 12:33:56.423 [info] Eager extensions activated
+2026-01-17 12:33:56.431 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 12:33:56.434 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 12:33:57.298 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10036
+2026-01-17 12:33:59.377 [warning] [Decorations] CAPPING events from decorations provider vscode.git 279
+2026-01-17 12:33:59.917 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10037
+2026-01-17 12:33:59.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 279

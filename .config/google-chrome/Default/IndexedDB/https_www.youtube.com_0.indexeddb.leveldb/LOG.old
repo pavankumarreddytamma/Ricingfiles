@@ -1,3 +1,12 @@
-2026/01/17-10:55:25.815 1b5f Reusing MANIFEST /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/17-10:55:25.816 1b5f Recovering log #42
-2026/01/17-10:55:25.830 1b5f Reusing old log /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000042.log 
+2026/01/17-13:12:04.281 1313 Reusing MANIFEST /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/17-13:12:04.281 1313 Recovering log #46
+2026/01/17-13:12:04.296 1313 Reusing old log /home/pavan/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000046.log 
+2026/01/17-13:13:35.244 1315 Level-0 table #52: started
+2026/01/17-13:13:35.268 1315 Level-0 table #52: 1564072 bytes OK
+2026/01/17-13:13:35.273 1315 Delete type=0 #46
+2026/01/17-13:29:32.931 1315 Compacting 1@1 + 1@2 files
+2026/01/17-13:29:32.944 1315 Generated table #53@1: 1039 keys, 76158 bytes
+2026/01/17-13:29:32.944 1315 Compacted 1@1 + 1@2 files => 76158 bytes
+2026/01/17-13:29:32.948 1315 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/17-13:29:32.948 1315 Delete type=2 #49
+2026/01/17-13:29:32.948 1315 Delete type=2 #52

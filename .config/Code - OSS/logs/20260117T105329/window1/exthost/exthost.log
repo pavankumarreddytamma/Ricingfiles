@@ -1,0 +1,15 @@
+2026-01-17 10:53:31.867 [info] Extension host with pid 2513 started
+2026-01-17 10:53:31.867 [info] Skipping acquiring lock for /home/pavan/.config/Code - OSS/User/workspaceStorage/94b5de05b472bbb2bf9c269de5f08715.
+2026-01-17 10:53:32.236 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-17 10:53:32.294 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 10:53:32.312 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 10:53:32.450 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 10:53:32.586 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-17 10:53:33.009 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-17 10:53:33.022 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-17 10:53:33.149 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-17 10:53:33.542 [info] Eager extensions activated
+2026-01-17 10:53:33.592 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 10:53:33.597 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 10:53:35.680 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-17 10:53:35.703 [info] Extension host with pid 2513 exiting with code 0

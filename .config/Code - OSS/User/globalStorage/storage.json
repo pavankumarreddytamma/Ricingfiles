@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/pavan/.config"
+                "folderUri": "file:///home/pavan"
             }
         ],
         "emptyWindows": []
@@ -49,8 +49,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/pavan/.config",
-            "backupPath": "/home/pavan/.config/Code - OSS/Backups/f0f53c705c068d43fc7621af4ca72e2d",
+            "folder": "file:///home/pavan",
+            "backupPath": "/home/pavan/.config/Code - OSS/Backups/4cbd5ad4d0e1a58f76e0bd172d905e57",
             "uiState": {
                 "mode": 0,
                 "x": 0,

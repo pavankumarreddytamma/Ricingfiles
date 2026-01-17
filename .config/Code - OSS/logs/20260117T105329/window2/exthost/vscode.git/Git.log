@@ -1,0 +1,184 @@
+2026-01-17 10:53:33.756 [info] [main] Log level: Info
+2026-01-17 10:53:33.756 [info] [main] Validating found git in: "git"
+2026-01-17 10:53:33.756 [info] [main] Using git "2.52.0" from "git"
+2026-01-17 10:53:33.756 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-17 10:53:33.756 [info] > git rev-parse --show-toplevel [35ms]
+2026-01-17 10:53:33.756 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [14ms]
+2026-01-17 10:53:33.756 [info] [Model][openRepository] Opened repository (path): /home/pavan
+2026-01-17 10:53:33.756 [info] [Model][openRepository] Opened repository (real path): /home/pavan
+2026-01-17 10:53:33.756 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-17 10:53:33.756 [info] > git rev-parse --show-toplevel [33ms]
+2026-01-17 10:53:33.756 [info] > git config --get commit.template [47ms]
+2026-01-17 10:53:33.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-01-17 10:53:33.857 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [75ms]
+2026-01-17 10:53:33.896 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-17 10:53:33.911 [info] > git rev-parse --show-toplevel [6ms]
+2026-01-17 10:53:33.927 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-17 10:53:33.936 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-17 10:53:33.953 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-17 10:53:33.972 [info] > git rev-parse --show-toplevel [5ms]
+2026-01-17 10:53:33.985 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-17 10:53:33.999 [info] > git rev-parse --show-toplevel [4ms]
+2026-01-17 10:53:34.011 [info] > git rev-parse --show-toplevel [5ms]
+2026-01-17 10:53:34.030 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [8ms]
+2026-01-17 10:53:34.058 [info] [Model][openRepository] Opened repository (path): /home/pavan/.oh-my-zsh
+2026-01-17 10:53:34.058 [info] [Model][openRepository] Opened repository (real path): /home/pavan/.oh-my-zsh
+2026-01-17 10:53:34.058 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-17 10:53:34.095 [info] > git rev-parse --show-toplevel [10ms]
+2026-01-17 10:53:34.095 [info] > git config --get commit.template [22ms]
+2026-01-17 10:53:34.122 [info] > git rev-parse --show-toplevel [14ms]
+2026-01-17 10:53:34.137 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2026-01-17 10:53:34.139 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-17 10:53:34.207 [info] > git rev-parse --show-toplevel [56ms]
+2026-01-17 10:53:34.218 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-01-17 10:53:34.224 [info] > git rev-parse --show-toplevel [6ms]
+2026-01-17 10:53:34.237 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-17 10:53:34.268 [info] > git rev-parse --show-toplevel [24ms]
+2026-01-17 10:53:34.289 [info] > git check-ignore -v -z --stdin [27ms]
+2026-01-17 10:53:34.295 [info] > git rev-parse --show-toplevel [7ms]
+2026-01-17 10:53:34.313 [info] > git rev-parse --show-toplevel [8ms]
+2026-01-17 10:53:34.351 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [14ms]
+2026-01-17 10:53:34.369 [info] [Model][openRepository] Opened repository (path): /home/pavan/Hyprshot
+2026-01-17 10:53:34.369 [info] [Model][openRepository] Opened repository (real path): /home/pavan/Hyprshot
+2026-01-17 10:53:34.369 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-17 10:53:34.388 [info] > git config --get commit.template [8ms]
+2026-01-17 10:53:34.403 [info] > git rev-parse --show-toplevel [16ms]
+2026-01-17 10:53:34.422 [info] > git status -z -uall [239ms]
+2026-01-17 10:53:34.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [67ms]
+2026-01-17 10:53:34.485 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/Hyprshot/.git/refs/remotes/origin/main'
+2026-01-17 10:53:34.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2026-01-17 10:53:34.506 [info] > git rev-parse --show-toplevel [88ms]
+2026-01-17 10:53:34.522 [info] > git config --get --local branch.master.vscode-merge-base [16ms]
+2026-01-17 10:53:34.536 [info] > git rev-parse refs/remotes/origin/main [51ms]
+2026-01-17 10:53:34.566 [info] > git config --get commit.template [91ms]
+2026-01-17 10:53:34.568 [info] > git status -z -uall [18ms]
+2026-01-17 10:53:34.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [33ms]
+2026-01-17 10:53:34.586 [info] > git rev-parse --show-toplevel [65ms]
+2026-01-17 10:53:34.639 [info] > git merge-base refs/heads/master refs/remotes/origin/master [54ms]
+2026-01-17 10:53:34.657 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [91ms]
+2026-01-17 10:53:34.698 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2026-01-17 10:53:34.708 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% ec14da72fbf8b5016bb1533d4af3ff3bb2ac7a19...refs/remotes/origin/master -- [51ms]
+2026-01-17 10:53:34.709 [info] > git rev-parse --show-toplevel [72ms]
+2026-01-17 10:53:34.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [82ms]
+2026-01-17 10:53:34.739 [info] > git config --get --local branch.main.vscode-merge-base [31ms]
+2026-01-17 10:53:34.751 [info] > git config --get commit.template [54ms]
+2026-01-17 10:53:34.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2026-01-17 10:53:34.781 [info] > git rev-parse --show-toplevel [44ms]
+2026-01-17 10:53:34.823 [info] > git merge-base refs/heads/main refs/remotes/origin/main [44ms]
+2026-01-17 10:53:34.833 [info] > git rev-parse --show-toplevel [33ms]
+2026-01-17 10:53:34.835 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2026-01-17 10:53:34.851 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/Hyprshot/.git/refs/remotes/origin/main'
+2026-01-17 10:53:34.852 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [31ms]
+2026-01-17 10:53:34.855 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% f95068db7765b85a2bbae0f083e29074d7bee027...refs/remotes/origin/main -- [22ms]
+2026-01-17 10:53:34.856 [info] > git rev-parse --show-toplevel [12ms]
+2026-01-17 10:53:34.865 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2026-01-17 10:53:34.887 [info] > git status -z -uall [12ms]
+2026-01-17 10:53:34.887 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-01-17 10:53:34.909 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [45ms]
+2026-01-17 10:53:34.917 [info] [Model][openRepository] Opened repository (path): /home/pavan/auto-cpufreq
+2026-01-17 10:53:34.917 [info] [Model][openRepository] Opened repository (real path): /home/pavan/auto-cpufreq
+2026-01-17 10:53:34.917 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-17 10:53:34.936 [info] > git status -z -uall [124ms]
+2026-01-17 10:53:34.946 [info] > git rev-parse --show-toplevel [10ms]
+2026-01-17 10:53:34.946 [info] > git config --get commit.template [18ms]
+2026-01-17 10:53:34.972 [info] > git rev-parse --show-toplevel [12ms]
+2026-01-17 10:53:34.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-01-17 10:53:34.991 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/auto-cpufreq/.git/refs/remotes/origin/master'
+2026-01-17 10:53:34.992 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2026-01-17 10:53:35.008 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [27ms]
+2026-01-17 10:53:35.020 [info] [Model][openRepository] Opened repository (path): /home/pavan/fastfetch
+2026-01-17 10:53:35.020 [info] [Model][openRepository] Opened repository (real path): /home/pavan/fastfetch
+2026-01-17 10:53:35.020 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-17 10:53:35.053 [info] > git status -z -uall [52ms]
+2026-01-17 10:53:35.053 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [45ms]
+2026-01-17 10:53:35.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2026-01-17 10:53:35.106 [info] > git rev-parse --show-toplevel [54ms]
+2026-01-17 10:53:35.107 [info] > git config --get commit.template [68ms]
+2026-01-17 10:53:35.118 [info] > git config --get --local branch.master.vscode-merge-base [12ms]
+2026-01-17 10:53:35.131 [info] > git config --get commit.template [37ms]
+2026-01-17 10:53:35.154 [info] > git check-ignore -v -z --stdin [13ms]
+2026-01-17 10:53:35.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [24ms]
+2026-01-17 10:53:35.165 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [48ms]
+2026-01-17 10:53:35.173 [info] [Model][openRepository] Opened repository (path): /home/pavan/google-chrome
+2026-01-17 10:53:35.173 [info] [Model][openRepository] Opened repository (real path): /home/pavan/google-chrome
+2026-01-17 10:53:35.173 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-17 10:53:35.199 [info] > git merge-base refs/heads/master refs/remotes/origin/master [35ms]
+2026-01-17 10:53:35.208 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [57ms]
+2026-01-17 10:53:35.215 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/fastfetch/.git/refs/remotes/origin/dev'
+2026-01-17 10:53:35.216 [info] > git rev-parse --show-toplevel [18ms]
+2026-01-17 10:53:35.217 [info] > git config --get commit.template [27ms]
+2026-01-17 10:53:35.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [35ms]
+2026-01-17 10:53:35.234 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/auto-cpufreq/.git/refs/remotes/origin/master'
+2026-01-17 10:53:35.235 [info] > git rev-parse refs/remotes/origin/dev [20ms]
+2026-01-17 10:53:35.249 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 046af28ffb4d719e3c360b3986750f187866d4a8...refs/remotes/origin/master -- [41ms]
+2026-01-17 10:53:35.265 [info] > git rev-parse refs/remotes/origin/master [31ms]
+2026-01-17 10:53:35.279 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [51ms]
+2026-01-17 10:53:35.286 [info] [Model][openRepository] Opened repository (path): /home/pavan/yay-bin
+2026-01-17 10:53:35.286 [info] [Model][openRepository] Opened repository (real path): /home/pavan/yay-bin
+2026-01-17 10:53:35.286 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-17 10:53:35.308 [info] > git status -z -uall [36ms]
+2026-01-17 10:53:35.308 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2026-01-17 10:53:35.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [56ms]
+2026-01-17 10:53:35.313 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [64ms]
+2026-01-17 10:53:35.321 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/google-chrome/.git/refs/remotes/origin/master'
+2026-01-17 10:53:35.475 [info] > git rev-parse --show-toplevel [169ms]
+2026-01-17 10:53:35.475 [info] [Model][doInitialScan] Initial repository scan completed - repositories (7), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-17 10:53:35.491 [info] > git config --get commit.template [195ms]
+2026-01-17 10:53:37.032 [info] > git status -z -uall [3262ms] (cancelled)
+2026-01-17 10:53:37.032 [info] > git status -z -uall [1790ms]
+2026-01-17 10:53:37.032 [info] > git show --textconv :.config/waybar/config.jsonc [1550ms]
+2026-01-17 10:53:37.032 [info] > git ls-files --stage -- .config/waybar/config.jsonc [1541ms]
+2026-01-17 10:53:37.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1575ms]
+2026-01-17 10:53:37.063 [info] > git rev-parse refs/remotes/origin/master [1742ms]
+2026-01-17 10:53:37.164 [info] > git status -z -uall [78ms]
+2026-01-17 10:53:37.165 [info] > git check-ignore -v -z --stdin [40ms]
+2026-01-17 10:53:37.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [52ms]
+2026-01-17 10:53:37.178 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [84ms]
+2026-01-17 10:53:37.199 [info] > git config --get --local branch.main.vscode-merge-base [136ms]
+2026-01-17 10:53:37.211 [info] > git cat-file -s 80e0ded3ad00c99cce4195e2585cec7ab3010831 [169ms]
+2026-01-17 10:53:37.212 [info] > git config --get commit.template [184ms]
+2026-01-17 10:53:37.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [13ms]
+2026-01-17 10:53:37.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [38ms]
+2026-01-17 10:53:37.240 [info] > git config --get --local branch.dev.vscode-merge-base [63ms]
+2026-01-17 10:53:37.247 [info] > git config --get commit.template [84ms]
+2026-01-17 10:53:37.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [93ms]
+2026-01-17 10:53:37.261 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/yay-bin/.git/refs/remotes/origin/master'
+2026-01-17 10:53:37.262 [info] > git config --get --local branch.master.vscode-merge-base [22ms]
+2026-01-17 10:53:37.269 [info] > git merge-base refs/heads/main refs/remotes/origin/main [37ms]
+2026-01-17 10:53:37.279 [info] > git config --get commit.template [56ms]
+2026-01-17 10:53:37.290 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% bcfc2525bf8c5b34beb858ec5536d21b155debc0...refs/remotes/origin/main -- [11ms]
+2026-01-17 10:53:37.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [21ms]
+2026-01-17 10:53:37.298 [info] > git rev-parse refs/remotes/origin/master [37ms]
+2026-01-17 10:53:37.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [60ms]
+2026-01-17 10:53:37.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dev refs/remotes/origin/dev [67ms]
+2026-01-17 10:53:37.385 [info] > git status -z -uall [79ms]
+2026-01-17 10:53:37.385 [info] > git merge-base refs/heads/dev refs/remotes/origin/dev [63ms]
+2026-01-17 10:53:37.392 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [79ms]
+2026-01-17 10:53:37.407 [info] > git merge-base refs/heads/master refs/remotes/origin/master [110ms]
+2026-01-17 10:53:37.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [126ms]
+2026-01-17 10:53:37.432 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/fastfetch/.git/refs/remotes/origin/dev'
+2026-01-17 10:53:37.434 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 323850b6c61a73bd0a41773f49ae2bf192e0d253...refs/remotes/origin/master -- [20ms]
+2026-01-17 10:53:37.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2026-01-17 10:53:37.442 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% de6d066fc99efb920b06b36e3e7cb585833c88dc...refs/remotes/origin/dev -- [50ms]
+2026-01-17 10:53:37.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [59ms]
+2026-01-17 10:53:37.455 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/google-chrome/.git/refs/remotes/origin/master'
+2026-01-17 10:53:37.470 [info] > git config --get --local branch.master.vscode-merge-base [28ms]
+2026-01-17 10:53:37.478 [info] > git rev-parse refs/remotes/origin/dev [46ms]
+2026-01-17 10:53:37.494 [info] > git config --get commit.template [69ms]
+2026-01-17 10:53:37.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [37ms]
+2026-01-17 10:53:37.525 [info] > git rev-parse refs/remotes/origin/master [70ms]
+2026-01-17 10:53:37.550 [info] > git status -z -uall [65ms]
+2026-01-17 10:53:37.550 [info] > git status -z -uall [17ms]
+2026-01-17 10:53:37.551 [info] > git merge-base refs/heads/master refs/remotes/origin/master [26ms]
+2026-01-17 10:53:37.558 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [43ms]
+2026-01-17 10:53:37.560 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [66ms]
+2026-01-17 10:53:37.577 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 1751e24c436c5909ae8d5b1f119e026101e28e3c...refs/remotes/origin/master -- [19ms]
+2026-01-17 10:53:37.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2026-01-17 10:53:37.578 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [37ms]
+2026-01-17 10:53:37.596 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pavan/yay-bin/.git/refs/remotes/origin/master'
+2026-01-17 10:53:37.597 [info] > git blame --root --incremental bcfc2525bf8c5b34beb858ec5536d21b155debc0 -- .config/waybar/config.jsonc [23ms]
+2026-01-17 10:53:37.612 [info] > git rev-parse refs/remotes/origin/master [16ms]
+2026-01-17 10:53:37.647 [info] > git status -z -uall [29ms]
+2026-01-17 10:53:37.647 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2026-01-17 10:53:37.667 [info] > git check-ignore -v -z --stdin [8ms]
+2026-01-17 10:53:37.952 [info] > git status -z -uall [450ms] (cancelled)

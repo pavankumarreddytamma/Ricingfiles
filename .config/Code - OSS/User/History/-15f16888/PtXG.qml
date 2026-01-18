@@ -1,0 +1,15 @@
+import QtQuick
+import Quickshell
+
+PanelWindow {
+    anchors {
+        top: true
+        left: true
+        right: true
+        
+    }
+ color: "green"
+ implicitHeight: 36
+
+}
+

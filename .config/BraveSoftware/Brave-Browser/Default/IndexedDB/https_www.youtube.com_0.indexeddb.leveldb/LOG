@@ -1,6 +1,0 @@
-2026/01/16-20:23:47.006 1a851 Reusing MANIFEST /home/pavan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/16-20:23:47.007 1a851 Recovering log #12
-2026/01/16-20:23:47.014 1a851 Reusing old log /home/pavan/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000012.log 
-2026/01/16-20:24:13.062 1a86c Level-0 table #18: started
-2026/01/16-20:24:13.098 1a86c Level-0 table #18: 2559650 bytes OK
-2026/01/16-20:24:13.108 1a86c Delete type=0 #12

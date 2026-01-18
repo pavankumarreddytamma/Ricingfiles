@@ -1,0 +1,22 @@
+2026-01-17 22:43:44.176 [info] Extension host with pid 1782530 started
+2026-01-17 22:43:44.176 [info] Skipping acquiring lock for /home/pavan/.config/Code - OSS/User/workspaceStorage/94b5de05b472bbb2bf9c269de5f08715.
+2026-01-17 22:43:44.371 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-17 22:43:44.429 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-17 22:43:44.470 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-01-17 22:43:45.110 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-17 22:43:45.202 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-17 22:43:45.297 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-17 22:43:45.513 [info] Eager extensions activated
+2026-01-17 22:43:45.527 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 22:43:45.531 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 22:43:45.690 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6129
+2026-01-17 22:43:46.962 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6131
+2026-01-17 22:43:51.207 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6130
+2026-01-17 22:43:53.667 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2026-01-17 22:43:56.331 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6131
+2026-01-17 22:44:29.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6113
+2026-01-17 22:44:34.139 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6114
+2026-01-17 22:45:05.058 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6114
+2026-01-17 22:45:17.320 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6115
+2026-01-17 22:45:19.598 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-17 22:45:19.624 [info] Extension host with pid 1782530 exiting with code 0

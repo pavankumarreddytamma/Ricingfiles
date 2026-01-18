@@ -1,0 +1,26 @@
+2026-01-17 17:15:43.971 [info] [extension] Activating theqtcompany.qt-core
+2026-01-17 17:15:43.971 [info] [project] Creating project:"/run/media/pavan/Drive/Qt learning"
+2026-01-17 17:15:43.971 [info] [vcpkg] vcpkg is not installed
+2026-01-17 17:15:43.971 [info] [qtpaths] Found qmake in PATH: /usr/sbin/qmake
+2026-01-17 17:15:43.971 [info] [qtpaths] Added /usr/sbin/qmake to the settings with name: Qt-5.15.18-linux-g++_from_PATH
+2026-01-17 17:15:43.971 [info] [qtpaths] additionalQtPaths not found in the settings
+2026-01-17 17:15:43.971 [info] [qtpaths] Adding /usr/sbin/qmake to the settings
+2026-01-17 17:15:43.971 [info] [installation-root] Additional Qt Paths updated: [{"name":"Qt-5.15.18-linux-g++_from_PATH","path":"/usr/sbin/qmake","isVCPKG":false}]
+2026-01-17 17:15:43.971 [info] [installation-root] Notifying coreAPI with message: [global]: additionalQtPaths
+2026-01-17 17:15:43.971 [info] [project] Setting Qt installation root for /run/media/pavan/Drive/Qt learning to: 
+2026-01-17 17:15:43.972 [info] [project] Setting additional Qt paths for /run/media/pavan/Drive/Qt learning to: 
+2026-01-17 17:15:43.972 [info] [project] Config values initialized for:/run/media/pavan/Drive/Qt learning
+2026-01-17 17:15:43.972 [info] [installation-root] Additional Qt Paths updated: [{"name":"Qt-5.15.18-linux-g++_from_PATH","path":"/usr/sbin/qmake","isVCPKG":false}]
+2026-01-17 17:15:43.972 [info] [installation-root] Notifying coreAPI with message: [global]: additionalQtPaths
+2026-01-17 17:50:47.884 [info] [extension] Deactivating qt-core
+2026-01-17 17:50:47.884 [info] [project] Disposing project:/run/media/pavan/Drive/Qt learning
+2026-01-17 17:51:09.734 [info] [extension] Activating theqtcompany.qt-core
+2026-01-17 17:51:09.734 [info] [project] Creating project:"/home/pavan/.config/quickshell"
+2026-01-17 17:51:09.734 [info] [vcpkg] vcpkg is not installed
+2026-01-17 17:51:09.734 [info] [qtpaths] Found qmake in PATH: /usr/sbin/qmake
+2026-01-17 17:51:09.734 [info] [qtpaths] /usr/sbin/qmake already exists in the settings
+2026-01-17 17:51:09.734 [info] [project] Setting Qt installation root for /home/pavan/.config/quickshell to: 
+2026-01-17 17:51:09.734 [info] [project] Setting additional Qt paths for /home/pavan/.config/quickshell to: 
+2026-01-17 17:51:09.734 [info] [project] Config values initialized for:/home/pavan/.config/quickshell
+2026-01-17 22:05:09.907 [info] [extension] Deactivating qt-core
+2026-01-17 22:05:09.908 [info] [project] Disposing project:/home/pavan/.config/quickshell

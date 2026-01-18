@@ -6,18 +6,20 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/pavan"
+                "folderUri": "file:///home/pavan/.config"
             }
         ],
         "emptyWindows": []
     },
-    "windowControlHeight": 35,
+    "windowControlHeight": 50,
     "profileAssociations": {
         "workspaces": {
             "file:///home/pavan/.config/hypr": "__default__profile__",
             "file:///home/pavan/.config/kitty": "__default__profile__",
             "file:///home/pavan/.config": "__default__profile__",
-            "file:///home/pavan": "__default__profile__"
+            "file:///home/pavan": "__default__profile__",
+            "file:///run/media/pavan/Drive/Qt%20learning": "__default__profile__",
+            "file:///home/pavan/.config/quickshell": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -41,7 +43,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 271,
+            "sideBarWidth": 317,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -49,21 +51,22 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/pavan",
-            "backupPath": "/home/pavan/.config/Code - OSS/Backups/4cbd5ad4d0e1a58f76e0bd172d905e57",
+            "folder": "file:///home/pavan/.config",
+            "backupPath": "/home/pavan/.config/Code - OSS/Backups/f0f53c705c068d43fc7621af4ca72e2d",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
                 "width": 1920,
-                "height": 1080
+                "height": 1080,
+                "zoomLevel": 2
             }
         },
         "openedWindows": []
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 271,
+            "sideBarWidth": 317,
             "auxiliaryBarWidth": 9007199254740991,
             "workspaces": {
                 "446eefb4308edb085deb5417c8048728": {
@@ -79,6 +82,14 @@
                     "auxiliaryBarVisible": false
                 },
                 "3953084429cb06b7f2b9a47049660409": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "4aaef9c737a177892395b42bbb36729e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5158c5a1420208e034f0f704bad8a222": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }

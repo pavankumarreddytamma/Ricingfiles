@@ -1,3 +1,9 @@
-2026/01/17-13:41:50.858 17f8f Reusing MANIFEST /home/pavan/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
-2026/01/17-13:41:50.859 17f8f Recovering log #7
-2026/01/17-13:41:50.860 17f8f Reusing old log /home/pavan/.config/google-chrome/Default/shared_proto_db/000007.log 
+2026/01/18-12:08:41.931 26f7 Reusing MANIFEST /home/pavan/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
+2026/01/18-12:08:41.931 26f7 Recovering log #7
+2026/01/18-12:08:41.937 26f7 Reusing old log /home/pavan/.config/google-chrome/Default/shared_proto_db/000007.log 
+2026/01/18-12:55:45.610 26f7 Compacting 1@1 + 1@2 files
+2026/01/18-12:55:45.624 26f7 Generated table #10@1: 366 keys, 20825 bytes
+2026/01/18-12:55:45.624 26f7 Compacted 1@1 + 1@2 files => 20825 bytes
+2026/01/18-12:55:45.629 26f7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/01/18-12:55:45.629 26f7 Delete type=2 #5
+2026/01/18-12:55:45.629 26f7 Delete type=2 #8

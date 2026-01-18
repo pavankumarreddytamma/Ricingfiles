@@ -1,0 +1,215 @@
+2026-01-17 22:16:59.931 [info] Extension host with pid 1672020 started
+2026-01-17 22:16:59.931 [info] Skipping acquiring lock for /home/pavan/.config/Code - OSS/User/workspaceStorage/5158c5a1420208e034f0f704bad8a222.
+2026-01-17 22:17:00.258 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-17 22:17:00.303 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-17 22:17:00.333 [info] ExtensionService#_doActivateExtension theqtcompany.qt-core, startup: false, activationEvent: 'onLanguage:qml', root cause: theqtcompany.qt-qml
+2026-01-17 22:17:00.712 [info] ExtensionService#_doActivateExtension theqtcompany.qt-qml, startup: false, activationEvent: 'onLanguage:qml'
+2026-01-17 22:17:00.938 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-17 22:17:00.986 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-17 22:17:01.084 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-17 22:17:01.295 [info] Eager extensions activated
+2026-01-17 22:17:01.308 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 22:17:01.312 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 22:17:05.940 [warning] The task [Qt, Acquire Port] uses an undefined task type. The task will be ignored in the future.
+2026-01-17 22:17:07.299 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 22:17:07.311 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 22:17:07.404 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 22:17:08.236 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:966:11)
+	at Socket._write (node:net:978:8)
+	at writeOrBuffer (node:internal/streams/writable:572:12)
+	at _write (node:internal/streams/writable:501:10)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14134)
+	at ST.doWrite (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1627)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1526
+2026-01-17 22:17:08.237 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8500)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8079)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Rk.start (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:4473)
+2026-01-17 22:17:08.249 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:491:11)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14134)
+	at ST.doWrite (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1627)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1526
+2026-01-17 22:17:08.249 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8500)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8079)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Rk.start (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:4473)
+2026-01-17 22:17:08.264 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:966:11)
+	at Socket._write (node:net:978:8)
+	at writeOrBuffer (node:internal/streams/writable:572:12)
+	at _write (node:internal/streams/writable:501:10)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14134)
+	at ST.doWrite (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1627)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1526
+2026-01-17 22:17:08.265 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8500)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8079)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Rk.start (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:4473)
+2026-01-17 22:17:08.274 [error] Error: Cannot call write after a stream was destroyed
+	at _write (node:internal/streams/writable:491:11)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14134)
+	at ST.doWrite (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1627)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1526
+2026-01-17 22:17:08.275 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8500)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8079)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Rk.start (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:4473)
+2026-01-17 22:17:08.286 [error] Error: write EPIPE
+	at afterWriteDispatched (node:internal/stream_base_commons:159:15)
+	at writeGeneric (node:internal/stream_base_commons:150:3)
+	at Socket._writeGeneric (node:net:966:11)
+	at Socket._write (node:net:978:8)
+	at writeOrBuffer (node:internal/streams/writable:572:12)
+	at _write (node:internal/streams/writable:501:10)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14213
+	at new Promise (<anonymous>)
+	at oM.write (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:78:14134)
+	at ST.doWrite (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1627)
+	at /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:50:1526
+2026-01-17 22:17:08.286 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8500)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8079)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:91:31107)
+	at Rk.doInitialize (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:7904)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async Rk.start (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:4473)
+2026-01-17 22:17:12.548 [warning] The task [Qt, Acquire Port] uses an undefined task type. The task will be ignored in the future.
+2026-01-17 22:17:29.987 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-17 22:17:30.009 [info] Extension host with pid 1672020 exiting with code 0
+2026-01-17 22:17:31.838 [info] Extension host with pid 1674358 started
+2026-01-17 22:17:31.838 [info] Skipping acquiring lock for /home/pavan/.config/Code - OSS/User/workspaceStorage/94b5de05b472bbb2bf9c269de5f08715.
+2026-01-17 22:17:32.230 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-17 22:17:32.276 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-17 22:17:32.389 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-17 22:17:32.494 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-17 22:17:32.622 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-17 22:17:32.877 [info] Eager extensions activated
+2026-01-17 22:17:32.884 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 22:17:32.887 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-17 22:17:33.038 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6073
+2026-01-17 22:17:34.262 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6073
+2026-01-17 22:17:36.269 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6073
+2026-01-17 22:17:41.385 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6073
+2026-01-17 22:18:20.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6074
+2026-01-17 22:18:25.431 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6074
+2026-01-17 22:18:30.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6074
+2026-01-17 22:18:35.652 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6075
+2026-01-17 22:18:40.824 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6076
+2026-01-17 22:18:58.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6076
+2026-01-17 22:19:03.353 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6077
+2026-01-17 22:19:08.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6077
+2026-01-17 22:19:13.651 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6077
+2026-01-17 22:19:33.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6077
+2026-01-17 22:19:38.454 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6077
+2026-01-17 22:19:43.627 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6078
+2026-01-17 22:19:56.687 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6078
+2026-01-17 22:20:02.357 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6078
+2026-01-17 22:20:07.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6078
+2026-01-17 22:20:12.585 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6079
+2026-01-17 22:20:30.457 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6079
+2026-01-17 22:20:34.480 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2026-01-17 22:20:35.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6080
+2026-01-17 22:20:43.691 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6081
+2026-01-17 22:20:50.228 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6081
+2026-01-17 22:20:55.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6081
+2026-01-17 22:21:00.524 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6082
+2026-01-17 22:21:05.708 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6083
+2026-01-17 22:21:08.438 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 22:21:08.450 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-01-17 22:21:10.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6083
+2026-01-17 22:21:15.989 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6083
+2026-01-17 22:21:54.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6083
+2026-01-17 22:21:59.951 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6083
+2026-01-17 22:22:05.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6084
+2026-01-17 22:22:16.135 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6085
+2026-01-17 22:22:21.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6086
+2026-01-17 22:22:26.436 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6086
+2026-01-17 22:22:32.798 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6086
+2026-01-17 22:22:37.918 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6087
+2026-01-17 22:22:46.656 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6091
+2026-01-17 22:22:51.873 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6086
+2026-01-17 22:22:57.063 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6086
+2026-01-17 22:23:02.188 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6086
+2026-01-17 22:23:08.304 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6086
+2026-01-17 22:23:13.432 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6086
+2026-01-17 22:23:18.611 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6090
+2026-01-17 22:23:23.721 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6087
+2026-01-17 22:23:28.830 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6087
+2026-01-17 22:23:39.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6087
+2026-01-17 22:23:55.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6087
+2026-01-17 22:24:00.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6087
+2026-01-17 22:24:22.026 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6087
+2026-01-17 22:24:26.875 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-01-17 22:24:27.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6088
+2026-01-17 22:24:32.899 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6089
+2026-01-17 22:26:15.699 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6090
+2026-01-17 22:27:18.322 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6090
+2026-01-17 22:27:33.802 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6090
+2026-01-17 22:28:01.693 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6096
+2026-01-17 22:28:07.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6096
+2026-01-17 22:28:13.932 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6096
+2026-01-17 22:29:09.124 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6096
+2026-01-17 22:29:46.539 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6096
+2026-01-17 22:35:07.882 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6096
+2026-01-17 22:38:13.904 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6096
+2026-01-17 22:39:57.719 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6096
+2026-01-17 22:40:02.844 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6096
+2026-01-17 22:40:07.966 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6097
+2026-01-17 22:40:13.201 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6097
+2026-01-17 22:40:18.324 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6097
+2026-01-17 22:40:28.652 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6098
+2026-01-17 22:40:33.784 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6098
+2026-01-17 22:40:38.912 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6099
+2026-01-17 22:40:45.797 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6099
+2026-01-17 22:41:00.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6100
+2026-01-17 22:41:05.281 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6100
+2026-01-17 22:41:10.402 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6101
+2026-01-17 22:41:15.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6102
+2026-01-17 22:41:24.666 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6102
+2026-01-17 22:41:29.793 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6103
+2026-01-17 22:41:35.608 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6103
+2026-01-17 22:41:45.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6104
+2026-01-17 22:41:50.488 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6105
+2026-01-17 22:41:55.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6105
+2026-01-17 22:42:06.750 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6106
+2026-01-17 22:42:11.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6105
+2026-01-17 22:42:17.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6106
+2026-01-17 22:42:22.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6107
+2026-01-17 22:42:48.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6107
+2026-01-17 22:43:15.608 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6108
+2026-01-17 22:43:22.282 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6107
+2026-01-17 22:43:27.425 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6107
+2026-01-17 22:43:37.523 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6107
+2026-01-17 22:43:38.991 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-17 22:43:39.030 [info] Extension host with pid 1674358 exiting with code 0

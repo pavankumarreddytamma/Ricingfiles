@@ -1,0 +1,91 @@
+[Error - 12:22:28 PM] Server process exited with code 127.
+[Error - 12:22:28 PM] Client qmlls: connection to server is erroring.
+Cannot call write after a stream was destroyed
+[Error - 12:22:28 PM] Server initialization failed.
+  Message: Cannot call write after a stream was destroyed
+  Code: -32099 
+[Error - 12:22:28 PM] qmlls client: couldn't create connection to server.
+  Message: Cannot call write after a stream was destroyed
+  Code: -32099 
+[Info  - 12:22:28 PM] Connection to server got closed. Server will restart.
+true
+/home/pavan/.local/share/qmlls/files/qmlls: error while loading shared libraries: libodbc.so.2: cannot open shared object file: No such file or directory
+[Error - 12:22:28 PM] Server process exited with code 127.
+[Error - 12:22:28 PM] Client qmlls: connection to server is erroring.
+Cannot call write after a stream was destroyed
+[Error - 12:22:28 PM] Server initialization failed.
+  Message: Cannot call write after a stream was destroyed
+  Code: -32099 
+[Error - 12:22:28 PM] qmlls client: couldn't create connection to server.
+  Message: Cannot call write after a stream was destroyed
+  Code: -32099 
+[Error - 12:22:28 PM] Restarting server failed
+  Message: Cannot call write after a stream was destroyed
+  Code: -32099 
+[Info  - 12:22:28 PM] Connection to server got closed. Server will restart.
+true
+/home/pavan/.local/share/qmlls/files/qmlls: error while loading shared libraries: libodbc.so.2: cannot open shared object file: No such file or directory
+[Error - 12:22:28 PM] Client qmlls: connection to server is erroring.
+write EPIPE
+Shutting down server.
+[Error - 12:22:28 PM] Client qmlls: connection to server is erroring.
+write EPIPE
+[Error - 12:22:28 PM] Stopping server failed
+Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8500)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8079)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:91:31107)
+	at Rk.handleConnectionError (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:90:63)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[Error - 12:22:28 PM] Server initialization failed.
+  Message: write EPIPE
+  Code: -32099 
+[Error - 12:22:28 PM] qmlls client: couldn't create connection to server.
+  Message: write EPIPE
+  Code: -32099 
+[Error - 12:22:28 PM] Restarting server failed
+  Message: write EPIPE
+  Code: -32099 
+[Info  - 12:22:28 PM] Connection to server got closed. Server will restart.
+true
+/home/pavan/.local/share/qmlls/files/qmlls: error while loading shared libraries: libodbc.so.2: cannot open shared object file: No such file or directory
+[Error - 12:22:28 PM] Server process exited with code 127.
+[Error - 12:22:28 PM] Server process exited with code 127.
+[Error - 12:22:28 PM] Client qmlls: connection to server is erroring.
+Cannot call write after a stream was destroyed
+[Error - 12:22:28 PM] Server initialization failed.
+  Message: Cannot call write after a stream was destroyed
+  Code: -32099 
+[Error - 12:22:28 PM] qmlls client: couldn't create connection to server.
+  Message: Cannot call write after a stream was destroyed
+  Code: -32099 
+[Error - 12:22:28 PM] Restarting server failed
+  Message: Cannot call write after a stream was destroyed
+  Code: -32099 
+[Info  - 12:22:28 PM] Connection to server got closed. Server will restart.
+true
+/home/pavan/.local/share/qmlls/files/qmlls: error while loading shared libraries: libodbc.so.2: cannot open shared object file: No such file or directory
+[Error - 12:22:28 PM] Client qmlls: connection to server is erroring.
+write EPIPE
+Shutting down server.
+[Error - 12:22:28 PM] Client qmlls: connection to server is erroring.
+write EPIPE
+[Error - 12:22:28 PM] Stopping server failed
+Error: Client is not running and can't be stopped. It's current state is: starting
+	at Rk.shutdown (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8500)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:88:8079)
+	at Rk.stop (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:91:31107)
+	at Rk.handleConnectionError (/home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal/out/extension.js:90:63)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[Error - 12:22:28 PM] Server initialization failed.
+  Message: write EPIPE
+  Code: -32099 
+[Error - 12:22:28 PM] qmlls client: couldn't create connection to server.
+  Message: write EPIPE
+  Code: -32099 
+[Error - 12:22:28 PM] Restarting server failed
+  Message: write EPIPE
+  Code: -32099 
+[Error - 12:22:28 PM] The qmlls server crashed 5 times in the last 3 minutes. The server will not be restarted. See the output for more information.
+/home/pavan/.local/share/qmlls/files/qmlls: error while loading shared libraries: libodbc.so.2: cannot open shared object file: No such file or directory
+[Error - 12:22:28 PM] Server process exited with code 127.

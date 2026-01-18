@@ -1,3 +1,24 @@
-2026/01/17-10:55:11.290 1b41 Reusing MANIFEST /home/pavan/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/01/17-10:55:11.291 1b41 Recovering log #44
-2026/01/17-10:55:11.322 1b41 Reusing old log /home/pavan/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000044.log 
+2026/01/17-17:02:24.059 17f8f Reusing MANIFEST /home/pavan/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/17-17:02:24.059 17f8f Recovering log #44
+2026/01/17-17:02:24.102 17f8f Reusing old log /home/pavan/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000044.log 
+2026/01/17-17:03:17.972 17f91 Level-0 table #55: started
+2026/01/17-17:03:18.017 17f91 Level-0 table #55: 2098118 bytes OK
+2026/01/17-17:03:18.023 17f91 Delete type=0 #44
+2026/01/17-17:03:18.024 17f91 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/01/17-17:03:18.025 17f91 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x02\x03\x01S\x00k\x00=\x00d\x00r\x00i\x00v\x00e\x00_\x00f\x00e\x00.\x00m\x00a\x00i\x00n\x00.\x00e\x00n\x00.\x009\x00K\x00a\x00D\x008\x004\x00Z\x00D\x00F\x008\x00g\x00.\x002\x000\x002\x001\x00.\x00O\x00/\x00c\x00k\x00=\x00/\x00a\x00m\x00=\x00A\x00E\x00A\x00A\x00t\x00P\x000\x00E\x00A\x00Q\x00A\x00A\x00A\x00A\x00B\x00A\x00A\x00A\x00A\x00Q\x00A\x00Y\x00A\x00H\x00A\x00C\x00I\x00Q\x00A\x00C\x00h\x00w\x00;\x00s\x00y\x004\x00c\x00r' @ 86652 : 1
+2026/01/17-17:03:18.025 17f91 Compacting 1@1 + 5@2 files
+2026/01/17-17:03:18.097 17f91 Generated table #56@1: 1664 keys, 2120064 bytes
+2026/01/17-17:03:18.156 17f91 Generated table #57@1: 2135 keys, 2123454 bytes
+2026/01/17-17:03:18.216 17f91 Generated table #58@1: 2117 keys, 2120885 bytes
+2026/01/17-17:03:18.277 17f91 Generated table #59@1: 1948 keys, 2124339 bytes
+2026/01/17-17:03:18.331 17f91 Generated table #60@1: 2002 keys, 2124664 bytes
+2026/01/17-17:03:18.352 17f91 Generated table #61@1: 9830 keys, 215489 bytes
+2026/01/17-17:03:18.352 17f91 Compacted 1@1 + 5@2 files => 10828895 bytes
+2026/01/17-17:03:18.358 17f91 compacted to: files[ 0 0 6 0 0 0 0 ]
+2026/01/17-17:03:18.359 17f91 Delete type=2 #48
+2026/01/17-17:03:18.359 17f91 Delete type=2 #49
+2026/01/17-17:03:18.359 17f91 Delete type=2 #50
+2026/01/17-17:03:18.359 17f91 Delete type=2 #51
+2026/01/17-17:03:18.359 17f91 Delete type=2 #52
+2026/01/17-17:03:18.360 17f91 Delete type=2 #55
+2026/01/17-17:03:18.364 17f91 Manual compaction at level-1 from '\x00\x03\x02\x03\x01S\x00k\x00=\x00d\x00r\x00i\x00v\x00e\x00_\x00f\x00e\x00.\x00m\x00a\x00i\x00n\x00.\x00e\x00n\x00.\x009\x00K\x00a\x00D\x008\x004\x00Z\x00D\x00F\x008\x00g\x00.\x002\x000\x002\x001\x00.\x00O\x00/\x00c\x00k\x00=\x00/\x00a\x00m\x00=\x00A\x00E\x00A\x00A\x00t\x00P\x000\x00E\x00A\x00Q\x00A\x00A\x00A\x00A\x00B\x00A\x00A\x00A\x00A\x00Q\x00A\x00Y\x00A\x00H\x00A\x00C\x00I\x00Q\x00A\x00C\x00h\x00w\x00;\x00s\x00y\x004\x00c\x00r' @ 86652 : 1 .. (end); will stop at (end)

@@ -1,0 +1,3 @@
+2026-01-18 12:22:28.879 [info] [project] Creating project:/home/pavan/.config
+2026-01-18 12:22:28.879 [info] [qmlls] Starting QML Language Server with:
+2026-01-18 12:22:28.879 [error] [qmlls] LanguageClient has failed to start with /home/pavan/.local/share/qmlls/files/qmlls

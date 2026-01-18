@@ -1,0 +1,8 @@
+2026-01-17 22:17:00.921 [info] [project] Creating project:/home/pavan/.config/quickshell
+2026-01-17 22:17:00.921 [info] [qmlls] Fetching release information
+2026-01-17 22:17:01.445 [info] [qmlls] Status Check: Found, but not executable
+2026-01-17 22:17:07.181 [info] [qmlls] User declined to install qmlls
+2026-01-17 22:17:07.192 [info] [qmlls] Starting QML Language Server with:
+2026-01-17 22:17:07.234 [error] [qmlls] LanguageClient has failed to start with /home/pavan/.local/share/qmlls/files/qmlls
+2026-01-17 22:17:30.007 [info] [extension] Deactivating qt-qml
+2026-01-17 22:17:30.007 [info] [project] Disposing project:/home/pavan/.config/quickshell

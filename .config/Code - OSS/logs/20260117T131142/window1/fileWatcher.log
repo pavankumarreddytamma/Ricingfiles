@@ -1,2 +1,3 @@
 2026-01-17 13:11:52.763 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/pavan/.config/google-chrome/Default/blob_storage/76bcefef-6750-4649-87fa-a96050321b7f' failed: No such file or directory (EUNKNOWN) (path: /home/pavan)
 2026-01-17 13:11:52.763 [error] [File Watcher (universal)] inotify_add_watch on '/home/pavan/.config/google-chrome/Default/blob_storage/76bcefef-6750-4649-87fa-a96050321b7f' failed: No such file or directory
+2026-01-17 17:49:38.854 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /run/media/pavan/Drive/Qt learning)

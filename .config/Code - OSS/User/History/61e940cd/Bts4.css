@@ -1,0 +1,116 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: initial;
+    min-height: 0px;
+}
+
+window#waybar {
+    background: transparent; /* Semi-transparent */
+    color: #cdd6f4;
+    transition-property: background-color;
+    transition-duration: .5s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 24px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modules-left, .modules-center, .modules-right {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Common Module Styling */
+#cpu, #custom-gpu, #memory, #temperature, 
+#clock, #battery, #network, #pulseaudio, #backlight, #bluetooth, #custom-power {
+    padding: 0 10px;
+    margin: 4px 4px;
+    background-color: rgba(21, 21, 21, 0.4);
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+#window {
+    padding: 0 10px;
+    margin: 4px 4px;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+ }
+ 
+#workspaces button {
+  min-width: 24px;
+  min-height: 0px;
+  color: #cdd6f4;
+  margin-left:2px;
+  margin-right: 2px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 0px;
+
+  background: transparent;
+  border-radius: 6px;
+
+  transition: all 0.25s ease;
+}
+
+/* Active workspace — wider */
+#workspaces button.active {
+  min-width: 40px;
+  background: rgba(108, 108, 229, 0.3);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+/* Hover (optional) */
+#workspaces button:hover {
+  background: #aaaaaa;
+}
+
+/* Urgent workspace */
+#workspaces button.urgent {
+  background: #ff5555;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#battery.charging {
+    color: #a6e3a1;
+}
+
+#battery.warning:not(.charging) {
+    color: #fab387;
+}
+
+#battery.critical:not(.charging) {
+    color: #f38ba8;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#custom-power {
+    padding-right: 14px;
+}
+
+@keyframes pulse {
+        from { background-color: #f38ba8; }
+        to   { box-shadow: 0 0 14px #ef4444; }
+}

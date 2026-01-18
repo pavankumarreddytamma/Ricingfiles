@@ -1,0 +1,27 @@
+* {
+  all: unset;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
+  color: #dbe7ff;
+}
+
+.glass-bar {
+  background: rgba(20, 25, 40, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 10px 18px;
+}
+
+.left, .center, .right {
+  background: transparent;
+}
+
+label {
+  padding: 6px 10px;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+label:hover {
+  background: rgba(80, 160, 255, 0.18);
+}

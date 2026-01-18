@@ -1,0 +1,41 @@
+2026-01-17 16:12:05.445 [info] Getting Manifest... theqtcompany.qt-qml
+2026-01-17 16:12:06.298 [info] Installing extension: theqtcompany.qt-qml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json","path":"/home/pavan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.1","date":"2025-12-19T12:27:49.310Z"}}
+2026-01-17 16:12:06.664 [info] Getting Manifest... theqtcompany.qt-core
+2026-01-17 16:12:06.930 [info] Installing extension: theqtcompany.qt-core {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json","path":"/home/pavan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.1","date":"2025-12-19T12:27:49.310Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-01-17 16:12:09.830 [info] Extension signature verification result for theqtcompany.qt-qml: Success. Executed: true. Duration: 1462ms.
+2026-01-17 16:12:09.877 [info] Extracted extension to file:///home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal: theqtcompany.qt-qml
+2026-01-17 16:12:09.885 [info] Renamed to /home/pavan/.vscode-oss/extensions/theqtcompany.qt-qml-1.10.0-universal
+2026-01-17 16:12:10.739 [info] Extension signature verification result for theqtcompany.qt-core: Success. Executed: true. Duration: 1087ms.
+2026-01-17 16:12:11.376 [info] Extracted extension to file:///home/pavan/.vscode-oss/extensions/theqtcompany.qt-core-1.10.0-universal: theqtcompany.qt-core
+2026-01-17 16:12:11.384 [info] Renamed to /home/pavan/.vscode-oss/extensions/theqtcompany.qt-core-1.10.0-universal
+2026-01-17 16:12:11.401 [info] Extension installed successfully: theqtcompany.qt-qml vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json
+2026-01-17 16:12:11.401 [info] Extension installed successfully: theqtcompany.qt-core vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json
+2026-01-17 17:53:16.859 [info] Getting Manifest... theqtcompany.qt
+2026-01-17 17:53:17.727 [info] Installing extension: theqtcompany.qt {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json","path":"/home/pavan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.1","date":"2025-12-19T12:27:49.310Z"}}
+2026-01-17 17:53:18.364 [info] Getting Manifest... theqtcompany.qt-cpp
+2026-01-17 17:53:18.907 [info] Getting Manifest... ms-vscode.cmake-tools
+2026-01-17 17:53:19.165 [info] Getting Manifest... theqtcompany.qt-qml
+2026-01-17 17:53:19.484 [info] Getting Manifest... theqtcompany.qt-ui
+2026-01-17 17:53:19.808 [info] Getting Manifest... theqtcompany.qt-core
+2026-01-17 17:53:22.515 [info] Skipping the packed extension as it cannot be installed theqtcompany.qt-python Can't install release version of 'Qt Python' extension because it has no release version.
+2026-01-17 17:53:22.515 [info] Installing extension: theqtcompany.qt-cpp {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json","path":"/home/pavan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.1","date":"2025-12-19T12:27:49.310Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-01-17 17:53:22.516 [info] Installing extension: ms-vscode.cmake-tools {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json","path":"/home/pavan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.1","date":"2025-12-19T12:27:49.310Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-01-17 17:53:22.516 [info] Installing extension: theqtcompany.qt-ui {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json","path":"/home/pavan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.107.1","date":"2025-12-19T12:27:49.310Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-01-17 17:53:22.973 [info] Getting Manifest... theqtcompany.qt-ui
+2026-01-17 17:53:23.619 [info] Extension is already requested to install theqtcompany.qt-ui vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json
+2026-01-17 17:53:24.969 [info] Extension signature verification result for theqtcompany.qt-cpp: Success. Executed: true. Duration: 1342ms.
+2026-01-17 17:53:24.982 [info] Extension signature verification result for theqtcompany.qt-ui: Success. Executed: true. Duration: 1343ms.
+2026-01-17 17:53:25.062 [info] Extracted extension to file:///home/pavan/.vscode-oss/extensions/theqtcompany.qt-cpp-1.10.0-universal: theqtcompany.qt-cpp
+2026-01-17 17:53:25.065 [info] Extension signature verification result for theqtcompany.qt: Success. Executed: true. Duration: 1271ms.
+2026-01-17 17:53:25.079 [info] Extracted extension to file:///home/pavan/.vscode-oss/extensions/theqtcompany.qt-ui-1.10.0-universal: theqtcompany.qt-ui
+2026-01-17 17:53:25.087 [info] Renamed to /home/pavan/.vscode-oss/extensions/theqtcompany.qt-cpp-1.10.0-universal
+2026-01-17 17:53:25.099 [info] Renamed to /home/pavan/.vscode-oss/extensions/theqtcompany.qt-ui-1.10.0-universal
+2026-01-17 17:53:25.115 [info] Extracted extension to file:///home/pavan/.vscode-oss/extensions/theqtcompany.qt-1.3.0-universal: theqtcompany.qt
+2026-01-17 17:53:25.132 [info] Renamed to /home/pavan/.vscode-oss/extensions/theqtcompany.qt-1.3.0-universal
+2026-01-17 17:53:25.371 [info] Extension signature verification result for ms-vscode.cmake-tools: Success. Executed: true. Duration: 1407ms.
+2026-01-17 17:53:26.182 [info] Extracted extension to file:///home/pavan/.vscode-oss/extensions/ms-vscode.cmake-tools-1.21.36-universal: ms-vscode.cmake-tools
+2026-01-17 17:53:26.219 [info] Renamed to /home/pavan/.vscode-oss/extensions/ms-vscode.cmake-tools-1.21.36-universal
+2026-01-17 17:53:26.264 [info] Extension installed successfully: theqtcompany.qt-cpp vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json
+2026-01-17 17:53:26.264 [info] Extension installed successfully: theqtcompany.qt-ui vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json
+2026-01-17 17:53:26.264 [info] Extension installed successfully: theqtcompany.qt vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json
+2026-01-17 17:53:26.265 [info] Extension installed successfully: ms-vscode.cmake-tools vscode-userdata:/home/pavan/.vscode-oss/extensions/extensions.json

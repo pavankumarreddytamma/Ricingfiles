@@ -1,0 +1,20 @@
+2026-01-17 17:15:43.973 [info] [project] Creating project:/run/media/pavan/Drive/Qt learning
+2026-01-17 17:15:43.973 [info] [qmlls] Fetching release information
+2026-01-17 17:15:44.380 [info] [qmlls] Status Check: Not Installed
+2026-01-17 17:15:48.865 [info] [qmlls] Updating QML language server
+2026-01-17 17:15:48.865 [info] [qmlls] Stopping QML language server to install new version
+2026-01-17 17:15:48.874 [info] [qmlls] Installing: qmlls-ubuntu-0.6.zip, 0.6
+2026-01-17 17:15:48.875 [info] [installer.ts] Downloading from: https://github.com/TheQtCompanyRnD/qmlls-workflow/releases/download/0.6/qmlls-ubuntu-0.6.zip
+2026-01-17 17:15:50.439 [info] [installer.ts] Unzipping to: /home/pavan/.local/share/qmlls/files
+2026-01-17 17:15:50.739 [info] [installer.ts] QML language server installed to: /home/pavan/.local/share/qmlls/files/qmlls
+2026-01-17 17:15:50.740 [info] [qmlls] Installation done
+2026-01-17 17:15:50.750 [info] [qmlls] Starting QML Language Server with:
+2026-01-17 17:15:50.793 [error] [qmlls] LanguageClient has failed to start with /home/pavan/.local/share/qmlls/files/qmlls
+2026-01-17 17:50:47.884 [info] [extension] Deactivating qt-qml
+2026-01-17 17:50:47.884 [info] [project] Disposing project:/run/media/pavan/Drive/Qt learning
+2026-01-17 17:51:09.734 [info] [project] Creating project:/home/pavan/.config/quickshell
+2026-01-17 17:51:09.734 [info] [qmlls] Fetching release information
+2026-01-17 17:51:09.942 [info] [qmlls] Status Check: Found, but not executable
+2026-01-17 22:05:09.908 [info] [extension] Deactivating qt-qml
+2026-01-17 22:05:09.908 [info] [project] Disposing project:/home/pavan/.config/quickshell
+2026-01-17 22:05:09.909 [warning] [qmlls] Canceled

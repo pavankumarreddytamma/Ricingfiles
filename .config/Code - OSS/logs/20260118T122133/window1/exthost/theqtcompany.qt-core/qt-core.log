@@ -1,0 +1,8 @@
+2026-01-18 12:22:28.862 [info] [extension] Activating theqtcompany.qt-core
+2026-01-18 12:22:28.862 [info] [project] Creating project:"/home/pavan/.config"
+2026-01-18 12:22:28.862 [info] [vcpkg] vcpkg is not installed
+2026-01-18 12:22:28.862 [info] [qtpaths] Found qmake in PATH: /usr/sbin/qmake
+2026-01-18 12:22:28.862 [info] [qtpaths] /usr/sbin/qmake already exists in the settings
+2026-01-18 12:22:28.862 [info] [project] Setting Qt installation root for /home/pavan/.config to: 
+2026-01-18 12:22:28.862 [info] [project] Setting additional Qt paths for /home/pavan/.config to: 
+2026-01-18 12:22:28.862 [info] [project] Config values initialized for:/home/pavan/.config
